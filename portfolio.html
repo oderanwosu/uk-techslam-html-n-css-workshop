@@ -1,20 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- TODO  1. Create a unique title in the format "Portfolio = [FIRST NAME] [LAST NAME]" -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- TODO 6. Add style tag to headeår to keep HTML code simple: https://www.w3schools.com/tags/tag_style.asp  -->
+
+    <style>
+    
+      body {
+        background-color: rgb(248, 240, 240);
+        color: rgb(215, 29, 29);
+        font-size: larger;
+        /* TODO: 7. introduce font family options: https://www.w3schools.com/cssref/pr_font_font-family.php */
+        font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+          "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+      }
+
+      /* TODO 8. Review element IDs: https://www.w3schools.com/html/html_id.asp*/
+      #profile-pic {
+        width: 200px;
+        height: 200px;
+      }
+
+    </style>
+    <!-- TODO  1. Create a unique title in the format "Portfolio = [FIRST NAME] [LAST NAME]"  -->
     <title>Portfolio - Odera Nwosu</title>
-</head>
-<body>
-    <hr>
+  </head>
+  <!-- TODO 5. Review style attribute, color, font, padding-->
+  <body
+    style="
+      background-color: rgb(248, 240, 240);
+      font-size: larger;
+      padding: 30px;
+    "
+  >
+    <hr />
     <!-- TODO 4.Review adding images using links AND adding and adding changes to size -->
-    <img height = 150 width = 150 src = "https://media.licdn.com/dms/image/C5603AQExmlJeu4popg/profile-displayphoto-shrink_800_800/0/1648931285062?e=2147483647&v=beta&t=8EPrjQjfDMjPROA5sKtn9NLWN6HcixEg6MS4MXgCXQs">
+     <!-- TODO 8. Review element IDs -->
+    <img
+    id="profile-pic"
+    
+      src="https://media.licdn.com/dms/image/C5603AQExmlJeu4popg/profile-displayphoto-shrink_800_800/0/1648931285062?e=2147483647&v=beta&t=8EPrjQjfDMjPROA5sKtn9NLWN6HcixEg6MS4MXgCXQs"
+    />
     <!-- TODO 2. Review different header effects -->
     <h1>Hello, my name is Odera</h1>
-     <!-- TODO 3. Go over p AND spans and href links-->
-    <h2>I am a computer science student at <span><a href="https://www.sfsu.edu/index.html">San Francisco State University</a></span></h2>
-    <p>Some things I like to do are build really cool apps using Javascript and React.js. I hope that someday I can use my skills to better the world 🌎</p>
-    <hr> 
-</body>
+    <!-- TODO 3. Go over p AND spans and href links-->
+    <h2>
+      I am a computer science student at
+      <span
+        ><a href="https://www.sfsu.edu/index.html"
+          >San Francisco State University</a
+        ></span
+      >
+    </h2>
+    <p>
+      Some things I like to do are build really cool apps using Javascript and
+      React.js. I hope that someday I can use my skills to better the world 🌎
+    </p>
+    <hr />
+  </body>
 </html>
